@@ -9,10 +9,10 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule,//taratyıcı import
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent]//Burda ilk çalışacak componenti belirtiriz 
 })
 export class AppModule { }
